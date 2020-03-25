@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerLocation matches snapshot 1`] = `
+PlayerLocation {
+  "context": Object {},
+  "props": Object {
+    "classes": Object {},
+    "namespace": "TEST",
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": Object {
+    "options": Array [
+      Object {
+        "id": 1,
+        "name": "Allianz Field",
+      },
+      Object {
+        "id": 2,
+        "name": "Audi Field",
+      },
+      Object {
+        "id": 3,
+        "name": "Avaya Stadium",
+      },
+      Object {
+        "id": 4,
+        "name": "Banc of California Stadium",
+      },
+      Object {
+        "id": 5,
+        "name": "BBVA Stadium",
+      },
+      Object {
+        "id": 6,
+        "name": "BC Place",
+      },
+      Object {
+        "id": 7,
+        "name": "BMO Field",
+      },
+      Object {
+        "id": 8,
+        "name": "CenturyLink Field",
+      },
+      Object {
+        "id": 9,
+        "name": "Children's Mercy Park",
+      },
+      Object {
+        "id": 10,
+        "name": "Dick's Sporting Goods Park",
+      },
+      Object {
+        "id": 11,
+        "name": "Dignity Health Sports Park",
+      },
+      Object {
+        "id": 12,
+        "name": "Exploria Stadium",
+      },
+      Object {
+        "id": 13,
+        "name": "Gillette Stadium",
+      },
+      Object {
+        "id": 14,
+        "name": "Mapfre Stadium",
+      },
+      Object {
+        "id": 15,
+        "name": "Mercedes-Benz Stadium",
+      },
+      Object {
+        "id": 16,
+        "name": "Nippert Stadium",
+      },
+      Object {
+        "id": 17,
+        "name": "Providence Park",
+      },
+      Object {
+        "id": 18,
+        "name": "Red Bull Arena",
+      },
+      Object {
+        "id": 19,
+        "name": "Rio Tinto Stadium",
+      },
+      Object {
+        "id": 20,
+        "name": "Saputo Stadium",
+      },
+      Object {
+        "id": 21,
+        "name": "SeatGeek Stadium",
+      },
+      Object {
+        "id": 22,
+        "name": "Talen Energy Stadium",
+      },
+      Object {
+        "id": 23,
+        "name": "Toyota Stadium",
+      },
+      Object {
+        "id": 24,
+        "name": "Yankee Stadium",
+      },
+    ],
+  },
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+      },
+      "_element": <PlayerLocation
+        classes={Object {}}
+        namespace="TEST"
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <React.Fragment>
+        <ForwardRef(WithStyles)
+          variant="h5"
+        >
+          Location: 
+        </ForwardRef(WithStyles)>
+        <ForwardRef(WithStyles)
+          container={true}
+        >
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={12}
+          >
+            <Select
+              label="Stadium"
+              name="TEST.id"
+              variant="outlined"
+            >
+              <ForwardRef(WithStyles)
+                disabled={true}
+                value=""
+              >
+                Select a stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={1}
+              >
+                Allianz Field
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={2}
+              >
+                Audi Field
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={3}
+              >
+                Avaya Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={4}
+              >
+                Banc of California Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={5}
+              >
+                BBVA Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={6}
+              >
+                BC Place
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={7}
+              >
+                BMO Field
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={8}
+              >
+                CenturyLink Field
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={9}
+              >
+                Children's Mercy Park
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={10}
+              >
+                Dick's Sporting Goods Park
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={11}
+              >
+                Dignity Health Sports Park
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={12}
+              >
+                Exploria Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={13}
+              >
+                Gillette Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={14}
+              >
+                Mapfre Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={15}
+              >
+                Mercedes-Benz Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={16}
+              >
+                Nippert Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={17}
+              >
+                Providence Park
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={18}
+              >
+                Red Bull Arena
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={19}
+              >
+                Rio Tinto Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={20}
+              >
+                Saputo Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={21}
+              >
+                SeatGeek Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={22}
+              >
+                Talen Energy Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={23}
+              >
+                Toyota Stadium
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                value={24}
+              >
+                Yankee Stadium
+              </ForwardRef(WithStyles)>
+              ;
+            </Select>
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+      </React.Fragment>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerIdentification matches snapshot 1`] = `
+PlayerIdentification {
+  "context": Object {},
+  "props": Object {
+    "classes": Object {},
+    "namespace": "TEST",
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+      },
+      "_element": <PlayerIdentification
+        classes={Object {}}
+        namespace="TEST"
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <React.Fragment>
+        <ForwardRef(WithStyles)
+          variant="h5"
+        >
+          Player Identification: 
+        </ForwardRef(WithStyles)>
+        <ForwardRef(WithStyles)
+          container={true}
+        >
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={10}
+          >
+            <TextField
+              label="Name"
+              name="TEST.name"
+              variant="outlined"
+            />
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            xs={2}
+          >
+            <TextField
+              label="Number"
+              name="TEST.number"
+              variant="outlined"
+            />
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+      </React.Fragment>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

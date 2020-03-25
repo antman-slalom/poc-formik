@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page matches snapshot 1`] = `
+Page {
+  "context": Object {},
+  "props": Object {
+    "classes": Object {},
+    "saveButtonDisabled": false,
+    "saveButtonVisible": false,
+    "showPageValidationError": false,
+    "subTitle": "user",
+    "title": "title",
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+      },
+      "_element": <Page
+        classes={Object {}}
+        saveButtonDisabled={false}
+        saveButtonVisible={false}
+        showPageValidationError={false}
+        subTitle="user"
+        title="title"
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <ForwardRef(StyledComponent)>
+        <ForwardRef(StyledComponent)
+          id="title"
+        >
+          <ForwardRef(WithStyles)
+            container={true}
+          >
+            <ForwardRef(WithStyles)
+              item={true}
+              xs={9}
+            >
+              <ForwardRef(WithStyles)
+                variant="h5"
+              >
+                user
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                variant="h3"
+              >
+                title
+              </ForwardRef(WithStyles)>
+            </ForwardRef(WithStyles)>
+            <ForwardRef(WithStyles)
+              item={true}
+              xs={2}
+            >
+              
+            </ForwardRef(WithStyles)>
+            <ForwardRef(WithStyles)
+              item={true}
+              xs={1}
+            >
+              
+            </ForwardRef(WithStyles)>
+          </ForwardRef(WithStyles)>
+        </ForwardRef(StyledComponent)>
+        <ForwardRef(StyledComponent)
+          id="content"
+        />
+      </ForwardRef(StyledComponent)>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerPosition matches snapshot 1`] = `
+PlayerPosition {
+  "context": Object {},
+  "props": Object {
+    "classes": Object {},
+    "namespace": "TEST",
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+      },
+      "_element": <PlayerPosition
+        classes={Object {}}
+        namespace="TEST"
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <React.Fragment>
+        <ForwardRef(WithStyles)
+          variant="h5"
+        >
+          Position: 
+        </ForwardRef(WithStyles)>
+        <ForwardRef(WithStyles)
+          container={true}
+        >
+          <ForwardRef(WithStyles)
+            item={true}
+            md={4}
+            xs={12}
+          >
+            <RadioGroup
+              name="TEST.position"
+            >
+              <ForwardRef(WithStyles)
+                control={<ForwardRef(WithStyles) />}
+                label="Gaolkeeper"
+                value="gaolkeeper"
+              />
+              <ForwardRef(WithStyles)
+                control={<ForwardRef(WithStyles) />}
+                label="Fullback"
+                value="fullback"
+              />
+              <ForwardRef(WithStyles)
+                control={<ForwardRef(WithStyles) />}
+                label="Back"
+                value="back"
+              />
+              <ForwardRef(WithStyles)
+                control={<ForwardRef(WithStyles) />}
+                label="Midfielder"
+                value="midfielder"
+              />
+              <ForwardRef(WithStyles)
+                control={<ForwardRef(WithStyles) />}
+                label="Striker"
+                value="striker"
+              />
+            </RadioGroup>
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            md={4}
+            xs={12}
+          >
+            <CheckboxWithLabel
+              label="International"
+              name="TEST.international"
+              variant="outlined"
+            />
+            <br />
+            <CheckboxWithLabel
+              label="On Loan"
+              name="TEST.onLoan"
+              variant="outlined"
+            />
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            item={true}
+            md={4}
+            xs={12}
+          >
+            <Switch
+              label="Injured"
+              name="TEST.injured"
+            />
+            <br />
+            <Switch
+              label="Starter"
+              name="TEST.starter"
+            />
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+      </React.Fragment>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
